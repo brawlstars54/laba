@@ -237,7 +237,7 @@ public class AppMain extends JFrame {
             return background;
     }
     public static void main(String[] args) throws InterruptedException {
-        Window w=new AppMain();
+        AppMain w=new AppMain();
     }
 }
 

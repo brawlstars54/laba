@@ -65,3 +65,4 @@ public abstract class AbstractCalculation{
         output+="<br>"+s+"</font><font color=\"white\"> Стоимость:"+sumCost+"</font>";
         app.print(output);
     }
+}
