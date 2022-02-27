@@ -14,7 +14,7 @@ public abstract class AbstractCalculation{
     float[] addsPrice;
     int[] mainParam;
     float[][] mainPrices;
-    AbstractCalculation(Window w){
+    AbstractCalculation(AppMain w){
         app=w;
         sumCost=0;
         addsName=new String[]{"теплый шов","отделка","Электросеть","водоснабжение","+ ПОДВАЛ"};
