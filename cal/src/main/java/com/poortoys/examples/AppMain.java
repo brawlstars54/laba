@@ -10,7 +10,7 @@ public class AppMain {
         private int height;
         private JFrame GUI;
         private JPanel panel;
-        private Background background;
+        private Background background;//проверка
         private JTextField inputW;
         private JTextField inputL;
         private JTextField inputH;
