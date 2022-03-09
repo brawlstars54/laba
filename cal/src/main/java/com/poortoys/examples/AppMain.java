@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class AppMain extends JFrame {
+public class AppMain {
         private int width;
         private int height;
         private JFrame GUI;
