@@ -163,15 +163,14 @@ public class AppMain {
             Calculate=new JButton("Рассчитать");
             Calculate.setBounds(TAB,poz,150,widthH);
             panel.add( Calculate);
-            Calculate.addActionListener(new ActionListener() {
-                @Override
-                public void actionPerformed(ActionEvent e) {
+            Calculate.addActionListener((ActionEvent e)-> 
+            	{
                     switch(choice[0]){
                         case 0:calculationBrick.calculate(choice[1]);break;
                         case 1:calculationBalk.calculate(choice[1]);break;
                     }
                 }
-            });
+            );
             poz+=widthH;
 
             output=new JLabel();
